@@ -33,7 +33,7 @@ def create_raw_file():
         f.write("""Hello World!
 This is my encryption test.
 abc xyz ABC XYZ""")
-    print("✅ raw_text.txt created")
+    print("raw_text.txt created")
 
 
 # -------------------------------
@@ -71,7 +71,7 @@ def encrypt_file(shift1, shift2):
 
         outfile.write(result)
 
-    print("✅ Encryption completed")
+    print("Encryption completed")
 
 
 # -------------------------------
@@ -117,7 +117,7 @@ def decrypt_file(shift1, shift2):
 
         outfile.write(result)
 
-    print("✅ Decryption completed")
+    print("Decryption completed")
 
 
 # -------------------------------
@@ -127,9 +127,9 @@ def decrypt_file(shift1, shift2):
 def verify_files():
     with open("raw_text.txt", "r") as f1, open("decrypted_text.txt", "r") as f2:
         if f1.read() == f2.read():
-            print("✅ SUCCESS: Decryption matches original!")
+            print("SUCCESS: Decryption matches original!")
         else:
-            print("❌ FAILURE: Decryption does NOT match")
+            print("FAILURE: Decryption does NOT match")
 
 
 # -------------------------------
