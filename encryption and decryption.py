@@ -11,7 +11,7 @@ Hello world
 
 """
 Assignment: File Encryption and Decryption System
-Author: Bibek Khakural
+Author: Bibek Khakural and Bibek Pantha
 
 Description:
 This program:
